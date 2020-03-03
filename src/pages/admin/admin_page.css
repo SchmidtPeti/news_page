@@ -1,0 +1,24 @@
+.left-header{
+    grid-area: left-header;
+}
+.right-header{
+    grid-area: right-header;
+}
+.title{
+    grid-area: title;
+}
+.body{
+    grid-area: body;
+}
+.save-btn{
+    grid-area: save-btn;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-areas: 'left-header right-header'
+'title'
+'body'
+'save-btn';
+    grid-gap: 10px;
+}
